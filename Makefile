@@ -4,7 +4,7 @@ lib_ope_cryptdb:
 	@rm ope.o hgd.o
 	@echo
 	@echo
-	@echo 'To compile <your_cpp_file>, run g++ <your_cpp_file> crypto/ope.a -std=c++11  -lntl -lgmp  -lcrypto'
+	@echo 'To compile <your_cpp_file>, run g++ <your_cpp_file> ope.a -std=c++11  -lntl -lgmp  -lcrypto'
 	@echo
 	@echo
 
