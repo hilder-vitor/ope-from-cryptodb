@@ -1,0 +1,16 @@
+The source code for CryptDB is licensed under the terms of the GPL v3 license
+and so is the code of this project, unless otherwise noted (such as in the case of third-party
+components and libraries):
+
+    This is a free software: you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    The GNU General Public License can be found on http://www.gnu.org/licenses/.
+
