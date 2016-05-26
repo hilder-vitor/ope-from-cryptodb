@@ -2,7 +2,7 @@
 
 #include <string>
 #include <cstring>
-#include <crypto/cbc.hh>
+#include "cbc.hh"
 
 
 template<class BlockCipher>

@@ -1,12 +1,10 @@
-lib_ope_cryptdb:
-	@g++ -c ope.cc hgd.cc -I.  -std=c++11
-	@ar rs ope.a ope.o hgd.o > /dev/null 2>&1
-	@rm ope.o hgd.o
-	@echo
-	@echo
-	@echo 'To compile <your_cpp_file>, run g++ <your_cpp_file> ope.a -std=c++11  -lntl -lgmp  -lcrypto'
-	@echo
-	@echo
+
+example: example.cpp lib/ope.a
+	g++ example.cpp lib/ope.a -std=c++11  -lntl -lgmp  -lcrypto -o example
+
+lib/ope.a:
+	make -C lib/
 
 clean:
-	rm ope.a
+	rm -f example
+	make clean -C lib/

@@ -4,9 +4,11 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include <errstream.hh>
+
+#include "errstream.hh"
+#include "bn.hh"
+
 #include <NTL/ZZ.h>
-#include <bn.hh>
 
 class PRNG {
  public:

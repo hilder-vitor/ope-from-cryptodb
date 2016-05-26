@@ -1,4 +1,5 @@
-#include <hgd.hh>
+#include "hgd.hh"
+
 #include <NTL/RR.h>
 
 using namespace std;

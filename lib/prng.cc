@@ -1,4 +1,4 @@
-#include <crypto/prng.hh>
+#include "prng.hh"
 
 using namespace NTL;
 

@@ -1,5 +1,5 @@
 #include <NTL/ZZ.h>
-#include <prng.hh>
+#include "prng.hh"
 
 /*
  * KK is the number of elements drawn from an urn where there are NN1 white

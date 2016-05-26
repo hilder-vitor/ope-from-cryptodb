@@ -1,4 +1,4 @@
-#include <ope.hh>
+#include "ope.hh"
 
 using namespace std;
 using namespace NTL;
