@@ -65,6 +65,12 @@ OPE::search(CB go_low)
 }
 
 ZZ
+OPE::encrypt(int ptext){
+	ZZ plaintext_ZZ = to_ZZ(ptext);
+	return encrypt(plaintext_ZZ);
+}
+
+ZZ
 OPE::encrypt(const ZZ &ptext)
 {
     ope_domain_range dr =

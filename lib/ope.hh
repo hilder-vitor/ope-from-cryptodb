@@ -27,6 +27,7 @@ class OPE {
     : key(keyarg), pbits(plainbits), cbits(cipherbits), aesk(aeskey(key)) {}
 
     NTL::ZZ encrypt(const NTL::ZZ &ptext);
+    NTL::ZZ encrypt(int ptext);
     NTL::ZZ decrypt(const NTL::ZZ &ctext);
 
  private:
